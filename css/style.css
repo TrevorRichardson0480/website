@@ -1,0 +1,275 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color:  #ccd1d1;
+  padding: 0;
+  margin: 0;
+  background-color: #212f3c;
+}
+
+#header{
+  width: 80%;
+  margin:auto;
+  overflow: hidden;
+}
+
+#header a{
+  color: #ccd1d1;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+header{
+  background: #212f3c;
+  color: #ccd1d1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: #b05219 5px solid;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+
+}
+
+#button{
+  text-align: center;
+}
+
+#showcase{
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  color: #ccd1d1;
+  background-image: url("../img/DSC_0270.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#showcase div{
+  height: 100vh;
+  transform: translate(0, 40%);
+}
+
+#showcase h1{
+  font-family: 'Sanchez', serif;
+}
+
+.everyPost{
+  color: #ccd1d1;
+  width: 100%;
+  height: 50vh;
+  background-color: #131c36;
+}
+
+.everyPost div{
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  transform: translate(0, -25%);
+}
+
+.everyPost h1{
+  font-family: 'Sanchez', serif;
+  text-align: center;
+}
+
+.everyPost p{
+  text-indent: 2em;
+}
+
+.otherPost{
+  color: #ccd1d1;
+  width: 100%;
+  height: 50vh;
+  background-color: #914b1f;
+}
+
+.otherPost div{
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  transform: translate(0, -25%);
+}
+
+.otherPost h1{
+  font-family: 'Sanchez', serif;
+  text-align: center;
+}
+
+.otherPost p{
+  text-indent: 2em;
+}
+
+#footer{
+  text-align: center;
+  background-color: #212f3c;
+  height: 80px;
+}
+
+#footer div{
+  height: 50%;
+}
+
+#footer p{
+  margin: 0;
+  height: 50%;
+}
+
+#footer li{
+  padding: 0 20px 0 20px;
+  display: inline;
+}
+
+#footer a{
+  color: #ccd1d1;
+  text-decoration: none;
+}
+
+
+
+#showcaseAbout{
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  color: #ccd1d1;
+  background-image: url("../img/DSC_0270.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#showcaseAbout div{
+  height: 100vh;
+  transform: translate(0, 40%);
+}
+
+#showcaseAbout h2{
+  font-family: 'Sanchez', serif;
+}
+
+#aboutMe{
+  color: #ccd1d1;
+  width: 100%;
+  height: 50vh;
+  background-color: #264d44;
+}
+
+#aboutMe div{
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  transform: translate(0, -25%);
+}
+
+#aboutMe h1{
+  font-family: 'Sanchez', serif;
+  text-align: center;
+}
+
+#aboutMe p{
+  text-indent: 2em;
+}
+
+#connect{
+  color: #ccd1d1;
+  width: 100%;
+  height: 50vh;
+  background-color: #7d7819;
+}
+
+#connect div{
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  transform: translate(0, -25%);
+}
+
+#connect h1{
+  font-family: 'Sanchez', serif;
+  text-align: center;
+}
+
+#connect p{
+  text-indent: 2em;
+}
+
+#icons {
+  text-align: center;
+  transform: translate(0, 100%);
+}
+
+#icons a{
+  color: #212f3c;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#resume{
+  background-color: #332222;
+  height: 100vh;
+}
+
+#resume embed{
+  padding: 5% 15% 5% 15%;
+  height: 100vh;
+}
+
+
+
+@media(max-width: 768px){
+  header li{
+    float: left;
+    padding: 0 12px 0 12px;
+
+  }
+
+  .everyPost div{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transform: translate(0, 0);
+  }
+
+  .otherPost div{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transform: translate(0, 0);
+  }
+
+  #aboutMe div{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transform: translate(0, 0);
+  }
+
+  #connect div{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transform: translate(0, 0);
+  }
+
+  #icons {
+    text-align: center;
+    display: inline;
+    transform: translate(0, 0);
+  }
+
+  #resume embed{
+    padding: 0 0 0 0;
+    height: 100vh;
+  }
+}
