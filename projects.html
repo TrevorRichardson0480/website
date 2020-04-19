@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Trevor's personal website">
+    <meta name="keywords" content="student, personal website, Trevor Richardson, computer science, software developing">
+    <meta name="author" content="Trevor Richardson">
+    <title>Trevor Richardson | Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+
+    <header>
+      <div id="header">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div id="showcase">
+      <div>
+        <h1>My Projects</h1>
+        <p>this is a blog-style feed where you can see what I've been working on with my free time</p>
+        <p id="button"><button type="button" class="btn btn-outline-secondary" onclick="smoothScroll(document.getElementById('firstPost'))">most recent project</button></p>
+        <p id="button"><button type="button" class="btn btn-outline-secondary" onclick="smoothScroll(document.getElementById('footer'))">oldest project</button></p>
+      </div>
+    </div>
+
+    <div id = "firstPost" class = "everyPost">
+      <div class="post">
+        <h1>First Project</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p id="button"><button type="button" class="btn btn-outline-secondary" onclick="smoothScroll(document.getElementById('secondPost'))">next project</button></p>
+      </div>
+    </div>
+
+    <div id = "secondPost" class = "otherPost">
+      <div class="post">
+        <h1>Second Project</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p id="button"><button type="button" class="btn btn-outline-dark" onclick="smoothScroll(document.getElementById('thirdPost'))">next project</button></p>
+      </div>
+    </div>
+
+    <div id = "thirdPost" class = "everyPost">
+      <div class="post">
+        <h1>Third Project</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p id="button"><button type="button" class="btn btn-outline-secondary" onclick="smoothScroll(document.getElementById('fourthPost'))">next project</button></p>
+      </div>
+    </div>
+
+    <div id = "fourthPost" class = "otherPost">
+      <div class="post">
+        <h1>Fourth Project</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p id="button"><button type="button" class="btn btn-outline-dark" onclick="smoothScroll(document.getElementById('fifthPost'))">next project</button></p>
+      </div>
+    </div>
+
+    <div id = "fifthPost" class = "everyPost">
+      <div class="post">
+        <h1>Fifth Project</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p id="button"><button type="button" class="btn btn-outline-secondary" onclick="smoothScroll(document.getElementById('header'))">to top</button></p>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div>
+        <p>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+          </ul>
+        </p>
+      </div>
+    </div>
+
+  </body>
+
+</html>
