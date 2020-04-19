@@ -228,10 +228,20 @@ header li{
 
 
 @media(max-width: 768px){
-  header li{
-    float: left;
-    padding: 0 12px 0 12px;
+  #header{
+    width: 100%;
+  }
 
+  header li{
+    padding: 0 5% 0 5%;
+  }
+
+  #button{
+    width: 100%;
+  }
+
+  .everyPost{
+    height: 100vh;
   }
 
   .everyPost div{
@@ -241,11 +251,31 @@ header li{
     transform: translate(0, 0);
   }
 
+  .otherPost{
+    height: 100vh;
+  }
+
   .otherPost div{
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
     transform: translate(0, 0);
+  }
+
+  #footer li{
+    padding: 0 5px 0 5px;
+  }
+
+  #footer div{
+    transform: translate(-10%, 0);
+  }
+
+  #showcaseAbout h3{
+    font-size: 20px;
+  }
+
+  #aboutMe{
+    height: 100vh;
   }
 
   #aboutMe div{
@@ -255,17 +285,26 @@ header li{
     transform: translate(0, 0);
   }
 
+  #connect{
+    height: 100vh;
+  }
+
   #connect div{
     padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 5px;
+    transform: translate(0, 0);
+  }
+
+  #connectText{
     padding-left: 50px;
     padding-right: 50px;
-    transform: translate(0, 0);
   }
 
   #icons {
     text-align: center;
     display: inline;
-    transform: translate(0, 0);
+    transform: translate(10%, 0);
   }
 
   #resume embed{
