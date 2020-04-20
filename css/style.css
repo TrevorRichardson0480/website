@@ -43,9 +43,20 @@ header li{
   text-align: center;
 }
 
+#button button{
+  color: #ccd1d1;
+  text-decoration: none;
+}
+
+#button a{
+  color: #ccd1d1;
+  text-decoration: none;
+}
+
 #showcase{
   height: 100vh;
   width: 100%;
+  padding: 0 25px 0 25px;
   text-align: center;
   color: #ccd1d1;
   background-image: url("../img/DSC_0270.jpg");
@@ -64,50 +75,27 @@ header li{
   font-family: 'Sanchez', serif;
 }
 
-.everyPost{
+#welcome{
+  background-color: #131c36;
   color: #ccd1d1;
-  width: 100%;
   height: 50vh;
+  text-align: center;
+}
+
+#welcome h1{
+  transform: translate(0, 50%);
+}
+
+#welcome p{
+  transform: translate(0, 50%);
+}
+
+#everyPost{
   background-color: #131c36;
 }
 
-.everyPost div{
-  padding-top: 100px;
-  padding-left: 100px;
-  padding-right: 100px;
-  transform: translate(0, -25%);
-}
-
-.everyPost h1{
-  font-family: 'Sanchez', serif;
-  text-align: center;
-}
-
-.everyPost p{
-  text-indent: 2em;
-}
-
-.otherPost{
-  color: #ccd1d1;
-  width: 100%;
-  height: 50vh;
+#otherPost{
   background-color: #914b1f;
-}
-
-.otherPost div{
-  padding-top: 100px;
-  padding-left: 100px;
-  padding-right: 100px;
-  transform: translate(0, -25%);
-}
-
-.otherPost h1{
-  font-family: 'Sanchez', serif;
-  text-align: center;
-}
-
-.otherPost p{
-  text-indent: 2em;
 }
 
 #footer{
@@ -151,7 +139,7 @@ header li{
 
 #showcaseAbout div{
   height: 100vh;
-  transform: translate(0, 40%);
+  transform: translate(0, 30%);
 }
 
 #showcaseAbout h2{
@@ -161,7 +149,7 @@ header li{
 #aboutMe{
   color: #ccd1d1;
   width: 100%;
-  height: 50vh;
+  height: 70vh;
   background-color: #264d44;
 }
 
@@ -169,7 +157,7 @@ header li{
   padding-top: 100px;
   padding-left: 100px;
   padding-right: 100px;
-  transform: translate(0, -25%);
+  transform: translate(0, -13%);
 }
 
 #aboutMe h1{
@@ -181,10 +169,15 @@ header li{
   text-indent: 2em;
 }
 
+#laptopIcon{
+  text-align: center;
+  transform: translate(-20px, 0);
+}
+
 #connect{
   color: #ccd1d1;
   width: 100%;
-  height: 50vh;
+  height: 30vh;
   background-color: #7d7819;
 }
 
@@ -215,6 +208,27 @@ header li{
   margin-right: 10px;
 }
 
+#showcaseResume{
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  color: #ccd1d1;
+  background-image: url("../img/DSC_0270.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#showcaseResume div{
+  height: 100vh;
+  transform: translate(0, 40%);
+}
+
+#showcaseResume h1{
+  font-family: 'Sanchez', serif;
+}
+
 #resume{
   background-color: #332222;
   height: 100vh;
@@ -224,6 +238,70 @@ header li{
   padding: 5% 15% 5% 15%;
   height: 100vh;
 }
+
+.post{
+  color: #ccd1d1;
+  width: 100%;
+  height: 60vh;
+}
+
+.post h1{
+  font-family: 'Sanchez', serif;
+  text-align: center;
+  transform: translate(0, 25px);
+}
+
+.post p{
+  text-indent: 2em;
+  padding: 25px 0 0 0;
+}
+
+.post ul{
+  transform: translate(0, -30px);
+  padding: 0 0 0 0;
+  margin: 0;
+}
+
+.post li{
+  display: inline;
+  float: left;
+}
+
+.post button{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin: 0 0 0 20px;
+  transform: translate(-50px, -20px);
+}
+
+#everyPost #projectText{
+  padding: 0 50px 0 50px;
+  width: 60%
+}
+
+#everyPost #projectCarousel{
+  width: 40%
+}
+
+#otherPost #projectText{
+  padding: 0 50px 0 50px;
+  width: 60%
+}
+
+#otherPost #projectCarousel{
+  transform: translate(40%, 0);
+  width: 40%
+}
+
+.carousel{
+  max-height: 50vh;
+  max-width: 60%;
+}
+
+#projectText{
+  text-indent: 2em;
+}
+
 
 
 
@@ -236,8 +314,20 @@ header li{
     padding: 0 5% 0 5%;
   }
 
-  #button{
-    width: 100%;
+  #showcase {
+    padding: 0 0 0 0;
+  }
+
+  #showcase p{
+    padding: 0 10px 0 10px;
+  }
+
+  #showcase div{
+    transform: translate(0, 25%);
+  }
+
+  #welcome{
+    transform: translate(0, 0);
   }
 
   .everyPost{
@@ -275,30 +365,25 @@ header li{
   }
 
   #aboutMe{
-    height: 100vh;
+    height: 150vh;
   }
 
   #aboutMe div{
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
     transform: translate(0, 0);
   }
 
   #connect{
-    height: 100vh;
+    height: 50vh;
   }
 
   #connect div{
-    padding-top: 50px;
-    padding-left: 10px;
+    padding-top: 25px;
+    padding-left: 25px;
     padding-right: 5px;
     transform: translate(0, 0);
-  }
-
-  #connectText{
-    padding-left: 50px;
-    padding-right: 50px;
   }
 
   #icons {
@@ -307,8 +392,56 @@ header li{
     transform: translate(10%, 0);
   }
 
+  #showcaseResume p{
+    padding: 0 10px 0 10px;
+  }
+
+  #showcaseResume div{
+    transform: translate(0, 25%);
+  }
+
   #resume embed{
     padding: 0 0 0 0;
     height: 100vh;
   }
+
+  .post{
+    height: 150vh;
+  }
+
+  .post li{
+    float: left;
+  }
+
+  #everyPost #projectText{
+    padding: 0 25px 0 25px;
+    width: 100%;
+  }
+
+  #everyPost #projectCarousel{
+    padding: 10px 0 0 0;
+    transform: translate(20%, 0);
+    width: 100%;
+  }
+
+  #otherPost #projectText{
+    padding: 10px 25px 0 25px;
+    width: 100%;
+  }
+
+  #otherPost #projectCarousel{
+    padding: 0 0 0 0;
+    transform: translate(20%, 0);
+    width: 100%;
+  }
+
+  .carousel{
+    max-height: 50vh;
+    max-width: 60%;
+  }
+
+  #projectText{
+    text-indent: 2em;
+  }
+
 }
