@@ -43,6 +43,16 @@ header li{
   text-align: center;
 }
 
+#button button{
+  color: #ccd1d1;
+  text-decoration: none;
+}
+
+#button a{
+  color: #ccd1d1;
+  text-decoration: none;
+}
+
 #showcase{
   height: 100vh;
   width: 100%;
@@ -67,52 +77,33 @@ header li{
 
 #welcome{
   transform: translate(0, -15%);
+  text-align: center;
 }
 
-.everyPost{
+.post{
   color: #ccd1d1;
   width: 100%;
   height: 50vh;
+
+}
+
+.post h1{
+  font-family: 'Sanchez', serif;
+  text-align: center;
+  transform: translate(0, 25px);
+}
+
+.post p{
+  text-indent: 2em;
+  padding: 25px 0 0 0;
+}
+
+#everyPost{
   background-color: #131c36;
 }
 
-.everyPost div{
-  padding-top: 100px;
-  padding-left: 100px;
-  padding-right: 100px;
-  transform: translate(0, -25%);
-}
-
-.everyPost h1{
-  font-family: 'Sanchez', serif;
-  text-align: center;
-}
-
-.everyPost p{
-  text-indent: 2em;
-}
-
-.otherPost{
-  color: #ccd1d1;
-  width: 100%;
-  height: 50vh;
+#otherPost{
   background-color: #914b1f;
-}
-
-.otherPost div{
-  padding-top: 100px;
-  padding-left: 100px;
-  padding-right: 100px;
-  transform: translate(0, -25%);
-}
-
-.otherPost h1{
-  font-family: 'Sanchez', serif;
-  text-align: center;
-}
-
-.otherPost p{
-  text-indent: 2em;
 }
 
 #footer{
@@ -186,6 +177,11 @@ header li{
   text-indent: 2em;
 }
 
+#laptopIcon{
+  text-align: center;
+  transform: translate(-20px, 0);
+}
+
 #connect{
   color: #ccd1d1;
   width: 100%;
@@ -251,6 +247,40 @@ header li{
   height: 100vh;
 }
 
+.post ul{
+  padding: 0 0 0 0;
+  margin: 0;
+}
+
+.post li{
+  display: inline;
+  float: left;
+}
+
+#everyPost #projectText{
+  padding: 0 50px 0 50px;
+  width: 60%
+}
+
+#everyPost #projectCarousel{
+  width: 40%
+}
+
+#otherPost #projectText{
+  padding: 0 50px 0 50px;
+  width: 60%
+}
+
+#otherPost #projectCarousel{
+  transform: translate(45%, 0);
+  width: 40%
+}
+
+.carousel{
+  max-height: 50vh;
+  max-width: 50%;
+}
+
 
 
 @media(max-width: 768px){
@@ -272,10 +302,6 @@ header li{
 
   #showcase div{
     transform: translate(0, 25%);
-  }
-
-  #button{
-    width: 100%;
   }
 
   #welcome{
