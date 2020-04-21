@@ -333,29 +333,13 @@ header li{
   }
 
   #welcome{
-    transform: translate(0, 0);
-  }
-
-  .everyPost{
     height: 100vh;
-  }
-
-  .everyPost div{
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
     transform: translate(0, 0);
+    padding: 0 10px 0 10px;
   }
 
-  .otherPost{
-    height: 100vh;
-  }
-
-  .otherPost div{
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    transform: translate(0, 0);
+  #welcome #button{
+    transform: translate(0, 100%);
   }
 
   #footer li{
@@ -371,7 +355,7 @@ header li{
   }
 
   #aboutMe{
-    height: 150vh;
+    height: 200vh;
   }
 
   #aboutMe div{
@@ -382,7 +366,7 @@ header li{
   }
 
   #connect{
-    height: 50vh;
+    height: 65vh;
   }
 
   #connect div{
@@ -412,11 +396,33 @@ header li{
   }
 
   .post{
-    height: 150vh;
+    height: 200vh;
   }
 
   .post li{
     float: left;
+  }
+
+  .everyPost{
+    height: 100vh;
+  }
+
+  .everyPost div{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transform: translate(0, 0);
+  }
+
+  .otherPost{
+    height: 100vh;
+  }
+
+  .otherPost div{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transform: translate(0, 0);
   }
 
   #everyPost #projectText{
