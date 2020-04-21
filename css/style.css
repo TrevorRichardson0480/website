@@ -83,7 +83,9 @@ header li{
 }
 
 #welcome h1{
-  transform: translate(0, 50%);
+  transform: translate(0, 40%);
+  font-family: 'Sanchez', serif;
+  padding-bottom: 20px;
 }
 
 #welcome p{
