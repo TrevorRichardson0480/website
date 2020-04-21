@@ -35,7 +35,7 @@
     <div id="showcase">
       <div>
         <h1>My Projects</h1>
-        <p>this is a blog-style feed where you can see what I've been working on with my free time<br>the only projects I put here are completed projects that were not required for a class</p>
+        <p>this is a blog-style feed where you can see what I've been working on with my free time<br>the only projects I put here are completed projects that were not required for a class<br>at the end of every description, you'll see a link that project's GitHub, date, and languages I used</p>
         <p id="button"><button type="button" class="btn btn-outline-secondary" onclick="smoothScroll(document.getElementById('everyPost'))">newest project</button></p>
         <p id="button"><button type="button" class="btn btn-outline-secondary" onclick="smoothScroll(document.getElementById('swampHacks2020'))">oldest project</button></p>
       </div>
@@ -43,10 +43,10 @@
 
     <div id="everyPost" class="post">
       <div>
-        <h1>Personal Website<p id="button"><button type="button" class="btn btn-outline-secondary" onclick="smoothScroll(document.getElementById('everyPost'))">next project</button><button type="button" class="btn btn-outline-secondary" onclick="smoothScroll(document.getElementById('header'))">to top</button></p></h1>
+        <h1>Personal Website<p id="button"><button type="button" class="btn btn-outline-secondary" onclick="smoothScroll(document.getElementById('moodTeller'))">next project</button><button type="button" class="btn btn-outline-secondary" onclick="smoothScroll(document.getElementById('header'))">to top</button></p></h1>
         <p>
           <ul>
-            <li id="projectText">I've spent the past weekend working on my website. I like the way it turned out, especially since the last time I used Html was over two years ago, and I am by no means a front-end developer. It was a surely learning experience. I also used javascript from Bootstrap to make some of these cool elements work. I am not a huge fan of Html, but I'll look more into javascript sometime soon.</li>
+            <li id="projectText">I've spent the past weekend working on my website. I like the way it turned out, especially since the last time I used Html was over two years ago, and I am by no means a front-end developer. It was a surely learning experience. I also used javascript from Bootstrap to make some of these cool elements work. I am not a huge fan of Html, but I'll look more into javascript sometime soon. - 4/19/2020 - HTML/CSS<br><p><a href="https://github.com/TrevorRichardson0480/website" target="_blank">See on GitHub</a></p></li>
             <li id=projectCarousel><div id="fifthProject" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
               <ol class="carousel-indicators">
                 <li data-target="#fifthProject" data-slide-to="0" class="active"></li>
@@ -80,48 +80,48 @@
     </div>
 
     <div id="otherPost" class="post">
-      <div>
-        <h1>Second Project<p id="button"><button type="button" class="btn btn-outline-dark" onclick="smoothScroll(document.getElementById('everyPost'))">next project</button><button type="button" class="btn btn-outline-dark" onclick="smoothScroll(document.getElementById('header'))">to top</button></p></h1>
+      <div id="moodTeller">
+        <h1>Mood Teller<p id="button"><button type="button" class="btn btn-outline-dark" onclick="smoothScroll(document.getElementById('economicsProgram'))">next project</button><button type="button" class="btn btn-outline-dark" onclick="smoothScroll(document.getElementById('header'))">to top</button></p></h1>
         <p>
           <ul>
-            <li id=projectCarousel><div id="secondProject" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+            <li id=projectCarousel><div id="fourthProject" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
               <ol class="carousel-indicators">
-                <li data-target="#secondProject" data-slide-to="0" class="active"></li>
-                <li data-target="#secondProject" data-slide-to="1"></li>
-                <li data-target="#secondProject" data-slide-to="2"></li>
+                <li data-target="#fourthProject" data-slide-to="0" class="active"></li>
+                <li data-target="#fourthProject" data-slide-to="1"></li>
+                <li data-target="#fourthProject" data-slide-to="2"></li>
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-block w-100" src="img\swampHacks2020\IMG_20200202_113814217.jpg" alt="First slide">
+                  <img class="d-block w-100" src="img\moodTeller\running.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="img\swampHacks2020\IMG_20200202_111232437_MP.jpg" alt="Second slide">
+                  <img class="d-block w-100" src="img\moodTeller\logic.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="img\swampHacks2020\IMG_20200202_134959776.jpg" alt="Third slide">
+                  <img class="d-block w-100" src="img\moodTeller\arrays.jpg" alt="Third slide">
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#secondProject" role="button" data-slide="prev">
+              <a class="carousel-control-prev" href="#fourthProject" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
               </a>
-              <a class="carousel-control-next" href="#secondProject" role="button" data-slide="next">
+              <a class="carousel-control-next" href="#fourthProject" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
             </div></li>
-            <li id="projectText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+            <li id="projectText">Knowing about the similarities between C# and Java, I created this program to just get a good understanding of C#. I also watch an hour-long video on just a quick introduction to C#. The similarity is very obvious, and I found this mini-project to be pretty fun. What the "Mood Teller" will do is use an algorithm to tell whether the user is in a good mood or a bad mood. Using an array of good-mood words, an array of bad-mood words, and an array of opposite words (such as "not"), the algorithm will take in a sentence from the user after asking the user about their mood. The algorithm will then search for good-mood words, bad-mood words, and opposite words in the sentence. Then it will generate a "mood score" and use that to determine the user's mood. The algorithm will also be able to tell if the sentence may have been a little confusing. In the end, the algorithm will tell the user if it thinks they are in a good mood, a bad mood, if it can't tell, and if the result may be a little off. - 4/6/2020 - C#<br><p><a id="githubLinksOnOther" href="https://github.com/TrevorRichardson0480/Mood-Teller" target="_blank">See on GitHub</a></p></li>
           </ul>
         </p>
       </div>
     </div>
 
     <div id="everyPost" class="post">
-      <div>
-        <h1>Third Project<p id="button"><button type="button" class="btn btn-outline-secondary" onclick="smoothScroll(document.getElementById('everyPost'))">next project</button><button type="button" class="btn btn-outline-secondary" onclick="smoothScroll(document.getElementById('header'))">to top</button></p></h1>
+      <div id="economicsProgram">
+        <h1>Economics Program<p id="button"><button type="button" class="btn btn-outline-secondary" onclick="smoothScroll(document.getElementById('fizzBuzz'))">next project</button><button type="button" class="btn btn-outline-secondary" onclick="smoothScroll(document.getElementById('header'))">to top</button></p></h1>
         <p>
           <ul>
-            <li id="projectText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+            <li id="projectText">I wanted to play around with reading from and writing to text files. So this java program will allow you to keep track of your monthly expenses and income. Data will be saved to and called from text files. Two text files are used per set of data (the program will call it a "month", assuming the user is keeping track of their expenses and income by month.) The first text file keeps track of daily changes (ie. the difference between the income and expenses for that day). This file is called the month file, and will also hold the statistics. The second file will keep track of every income and expense, regardless of the day. This is called the log file, and any data that has been updated or "written over" will be marked as "VOID" on the log file. The user will be able to add various types of income and expenses, as well as set to a different month, view the files within the program, view and update statistics, set a monthly goal, and export the files to the desktop, documents, or another desired directory. This is by far my biggest project yet! - 4/5/2020 - Java<br><p><a href="https://github.com/TrevorRichardson0480/Economics-Program" target="_blank">See on GitHub</a></p></li>
             <li id=projectCarousel><div id="thirdProject" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
               <ol class="carousel-indicators">
                 <li data-target="#thirdProject" data-slide-to="0" class="active"></li>
@@ -130,13 +130,13 @@
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-block w-100" src="img\swampHacks2020\IMG_20200202_113814217.jpg" alt="First slide">
+                  <img class="d-block w-100" src="img\economicsProgram\running.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="img\swampHacks2020\IMG_20200202_111232437_MP.jpg" alt="Second slide">
+                  <img class="d-block w-100" src="img\economicsProgram\code.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="img\swampHacks2020\IMG_20200202_134959776.jpg" alt="Third slide">
+                  <img class="d-block w-100" src="img\economicsProgram\printMonth.jpg" alt="Third slide">
                 </div>
               </div>
               <a class="carousel-control-prev" href="#thirdProject" role="button" data-slide="prev">
@@ -154,53 +154,55 @@
     </div>
 
     <div id="otherPost" class="post">
-      <div>
-        <h1>Fourth Project<p id="button"><button type="button" class="btn btn-outline-dark" onclick="smoothScroll(document.getElementById('everyPost'))">next project</button><button type="button" class="btn btn-outline-dark" onclick="smoothScroll(document.getElementById('header'))">to top</button></p></h1>
+      <div id="fizzBuzz">
+        <h1>Fizz Buzz<p id="button"><button type="button" class="btn btn-outline-dark" onclick="smoothScroll(document.getElementById('swampHacks2020'))">next project</button><button type="button" class="btn btn-outline-dark" onclick="smoothScroll(document.getElementById('header'))">to top</button></p></h1>
         <p>
           <ul>
-            <li id=projectCarousel><div id="fourthProject" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
-              <ol class="carousel-indicators">
-                <li data-target="#fourthProject" data-slide-to="0" class="active"></li>
-                <li data-target="#fourthProject" data-slide-to="1"></li>
-                <li data-target="#fourthProject" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img class="d-block w-100" src="img\swampHacks2020\IMG_20200202_113814217.jpg" alt="First slide">
+            <li id=projectCarousel>
+              <div id="secondProject" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+                <ol class="carousel-indicators">
+                  <li data-target="#secondProject" data-slide-to="0" class="active"></li>
+                  <li data-target="#secondProject" data-slide-to="1"></li>
+                  <li data-target="#secondProject" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="img\FizzBuzz\python.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="img\FizzBuzz\java.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="img\FizzBuzz\output.jpg" alt="Third slide">
+                  </div>
                 </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="img\swampHacks2020\IMG_20200202_111232437_MP.jpg" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="img\swampHacks2020\IMG_20200202_134959776.jpg" alt="Third slide">
-                </div>
+                <a class="carousel-control-prev" href="#secondProject" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#secondProject" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
               </div>
-              <a class="carousel-control-prev" href="#fourthProject" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#fourthProject" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div></li>
-            <li id="projectText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+            </li>
+            <li id="projectText">We all have to start somewhere, right? I wanted to give the infamous FizzBuzz program a shot. Better yet, it's in my two favorite laguages! - 3/23/2020 - Java/Python<br><p><a id="githubLinksOnOther" href="https://github.com/TrevorRichardson0480/FizzBuzz" target="_blank">See on GitHub</a></p></li>
           </ul>
         </p>
       </div>
     </div>
 
     <div id="everyPost" class="post">
-      <div>
+      <div id="swampHacks2020">
         <h1>Swamp Hacks 2020<p id="button"><button type="button" class="btn btn-outline-secondary" onclick="smoothScroll(document.getElementById('header'))">to top</button></p></h1>
         <p>
           <ul>
-            <li id="projectText">This was my first Hackathon and I was very overwhelmed (but in a good way). I tried to make it to as many workshops as possible, which was impossible because I also had a symphonic performance that weekend too! I enjoyed meeting many people, companies and learning so much about the industry. My group's project was a very simple game using an Arduino and other electronics. We called it Cody (get it, like code - y). I wasn't expecting to do anything extravagant since this was my first Hackathon and I didn't have much time, but at least I learned how to code for Arduino. I'm a freshman so I really still don't know a lot, but SwampHacks was great! And the swag... there was so much swag. </li>
-            <li id=projectCarousel><div id="swampHacks2020" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+            <li id="projectText">This was my first Hackathon and I was very overwhelmed (but in a good way). I tried to make it to as many workshops as possible, which was impossible because I also had a symphonic performance that weekend too! I enjoyed meeting many people, companies and learning so much about the industry. My group's project was a very simple game using an Arduino and other electronics. We called it Cody (get it, like code - y). I wasn't expecting to do anything extravagant since this was my first Hackathon and I didn't have much time, but at least I learned how to code for Arduino. I'm a freshman so I really still don't know a lot, but SwampHacks was great! And the swag... there was so much swag. - 2/2/2020 - C++<br><p><a href="https://github.com/TrevorRichardson0480/SwampHacks-2020-Project-Cody" target="_blank">See on GitHub</a></p></li>
+            <li id=projectCarousel><div id="firstProject" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
               <ol class="carousel-indicators">
-                <li data-target="#swampHacks2020" data-slide-to="0" class="active"></li>
-                <li data-target="#swampHacks2020" data-slide-to="1"></li>
-                <li data-target="#swampHacks2020" data-slide-to="2"></li>
+                <li data-target="#firstProject" data-slide-to="0" class="active"></li>
+                <li data-target="#firstProject" data-slide-to="1"></li>
+                <li data-target="#firstProject" data-slide-to="2"></li>
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -213,11 +215,11 @@
                   <img class="d-block w-100" src="img\swampHacks2020\IMG_20200202_134959776.jpg" alt="Third slide">
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#swampHacks2020" role="button" data-slide="prev">
+              <a class="carousel-control-prev" href="#firstProject" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
               </a>
-              <a class="carousel-control-next" href="#swampHacks2020" role="button" data-slide="next">
+              <a class="carousel-control-next" href="#firstProject" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
