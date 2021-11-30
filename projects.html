@@ -20,7 +20,7 @@
   <body>
 
     <header>
-      <div id="header">
+      <div>
         <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
@@ -36,8 +36,54 @@
       <div>
         <h1>My Projects</h1>
         <p>this is a blog-style feed where you can see what I've been working on with my free time<br>the only projects I put here are completed projects that were not required for a class<br>at the end of every description, you'll see that project's date, languages I used, and GitHub</p>
-        <p id="button"><button type="button" class="btn btn-outline-secondary" onclick="smoothScroll(document.getElementById('otherPost'))">newest project</button></p>
+        <p id="button"><button type="button" class="btn btn-outline-secondary" onclick="smoothScroll(document.getElementById('kkpsiah'))">newest project</button></p>
         <p id="button"><button type="button" class="btn btn-outline-secondary" onclick="smoothScroll(document.getElementById('swampHacks2020'))">oldest project</button></p>
+      </div>
+    </div>
+
+    <div id="everyPost" class="post">
+      <div id="kkpsiah">
+        <h1>Alpha Eta Chapter of Kappa Kappa Psi Website<p id="button"><button type="button" class="btn btn-outline-secondary" onclick="smoothScroll(document.getElementById('diceProgram'))">next project</button><button type="button" class="btn btn-outline-secondary" onclick="smoothScroll(document.getElementById('header'))">to top</button></p></h1>
+        <p>
+          <ul>
+            <li id="projectText">This was a project I took on at the beginning of the Fall 2020 semester. This was something I really wanted to put together since the Alpha Eta website on Wix was very limiting. It was a much bigger undertaking than I had originally expect. The site is mostly just HTML and CSS, I used some JavaScript for the scrolling button functionality on the homepage. Things like the drop downs on the Q&A page and the slide shows made use of Bootstrap. I also made use of Font Awesome and embedded Facebook posts and Google forms. The site is still live and can be found at kkpsiah.org, although I am no longer the webmaster of the Alpha Eta chapter, so things may have changed. I have the original version of the site on my GitHub. - 11/17/2020 - HTML/CSS/JS<br><p><a href="https://github.com/TrevorRichardson0480/KKPsiAH" target="_blank">See on GitHub</a></p></li>
+            <li id=projectCarousel><div id="seventhProject" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+              <ol class="carousel-indicators">
+                <li data-target="#seventhProject" data-slide-to="0" class="active"></li>
+                <li data-target="#seventhProject" data-slide-to="1"></li>
+                <li data-target="#seventhProject" data-slide-to="2"></li>
+                <li data-target="#seventhProject" data-slide-to="3"></li>
+                <li data-target="#seventhProject" data-slide-to="4"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="img\kkpsiah\kkpsiah4.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img\kkpsiah\kkpsiah3.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img\kkpsiah\kkpsiah2.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img\kkpsiah\kkpsiah1.jpg" alt="Fourth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img\kkpsiah\kkpsiah0.jpg" alt="Fifth slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#seventhProject" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#seventhProject" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div></li>
+          </ul>
+        </p>
+        <p></p>
       </div>
     </div>
 
@@ -54,13 +100,13 @@
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-block w-100" src="img\diceProgram\main.PNG" alt="First slide">
+                  <img class="d-block w-100" src="img\diceProgram\main.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="img\diceProgram\history.PNG" alt="Second slide">
+                  <img class="d-block w-100" src="img\diceProgram\history.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="img\diceProgram\export.PNG" alt="Third slide">
+                  <img class="d-block w-100" src="img\diceProgram\export.jpg" alt="Third slide">
                 </div>
               </div>
               <a class="carousel-control-prev" href="#sixthProject" role="button" data-slide="prev">
@@ -266,18 +312,18 @@
       </div>
     </div>
 
-    <div id="footer">
+    <footer>
       <div>
-        <p>
+        <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="resume.html">Resume</a></li>
             <li><a href="projects.html">Projects</a></li>
           </ul>
-        </p>
+        </nav>
       </div>
-    </div>
+    </footer>
 
   </body>
 
