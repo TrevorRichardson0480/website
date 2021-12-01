@@ -206,6 +206,14 @@ footer a{
   text-indent: 2em;
 }
 
+#connect a:hover{
+  color: #666666;
+}
+
+#connect a{
+  transition-duration: 0.4s;
+}
+
 #icons {
   text-align: center;
   transform: translate(0, 100%);
